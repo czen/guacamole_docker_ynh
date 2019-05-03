@@ -1,0 +1,10 @@
+version: '3'
+services:
+  guacd:
+    image: "guacamole/guacd"
+  guacamole:
+    image: "guacamole/guacamole"
+    ports:
+      - "8091:8080"
+    volumes:
+      /var/run/mysqld/mysqld.sock:/var/run/mysqld/mysqld.sock
