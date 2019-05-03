@@ -1,0 +1,36 @@
+{
+    "name": "Guacamole",
+    "id": "guacamole",
+    "url": "https://guacamole.apache.org",
+    "packaging_format": 1,
+    "description": {
+        "en": "guacamole remote desktop server",
+        "fr": "guacamole remote desktop server"
+    },
+    "version": "1.0",
+    "license": "AGPL-3.0",
+    "maintainer": {
+        "name": "Anton Bagliy",
+        "email": "taccessviolation@gmail.com"
+    },
+    "requirements": {
+        "yunohost": ">= 2.7.2"
+    },
+    "services": [
+        "nginx"
+     ],
+    "multi_instance": true,
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for Guacamole",
+                    "fr": "Choisissez un domaine pour Guacamole"
+                },
+                "example": "app.domain.org"
+            }
+        ]
+    }
+}

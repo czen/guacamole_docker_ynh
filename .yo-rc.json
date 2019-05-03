@@ -1,0 +1,18 @@
+{
+  "generator-dockerapp-yunohost": {
+    "beautifulName": "Guacamole",
+    "defaultPathOption": "",
+    "forceSecureAccess": true,
+    "secureAccessOption": false,
+    "adminUserOption": false,
+    "enDescription": "guacamole remote desktop server",
+    "frDescription": "guacamole remote desktop server",
+    "urlApp": "https://guacamole.apache.org",
+    "urlDockerHub": "https://hub.docker.com/r/guacamole/guacamole",
+    "authorName": "Anton Bagliy",
+    "authorEmail": "taccessviolation@gmail.com",
+    "idName": "guacamole",
+    "reverseProxyProtocol": "http",
+    "scriptsLoadSave": false
+  }
+}
